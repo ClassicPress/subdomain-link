@@ -1,3 +1,4 @@
 RewriteEngine on
 RedirectMatch 302 ^/?$ https://github.com/ClassicPress/subdomain-link
 RedirectMatch 302 ^/security-page/?$ https://docs.classicpress.net/developing-classicpress/security-page/
+RedirectMatch 302 ^/plugin-compatibility/?$ https://docs.classicpress.net/faq-support/#will-my-current-plugins-and-themes-work-in-classicpress
