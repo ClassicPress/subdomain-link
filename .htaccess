@@ -1,0 +1,2 @@
+RewriteEngine on
+RedirectMatch 302 ^/security-screen-docs/?$ https://docs.classicpress.net/developing-classicpress/security-screen/
