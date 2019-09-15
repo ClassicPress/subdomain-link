@@ -1,2 +1,3 @@
 RewriteEngine on
+RedirectMatch 301 ^/?$ https://github.com/ClassicPress/subdomain-link
 RedirectMatch 302 ^/security-screen-docs/?$ https://docs.classicpress.net/developing-classicpress/security-screen/
