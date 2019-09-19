@@ -17,5 +17,9 @@ RedirectMatch 302 \
 	https://docs.classicpress.net/developing-classicpress/security-page/
 
 RedirectMatch 302 \
+	^/security-page/contact-plugin-authors/?$ \
+	https://docs.classicpress.net/developing-classicpress/security-page/#contacting-plugin-authors
+
+RedirectMatch 302 \
 	^/support/security-page/?$ \
 	https://forums.classicpress.net/c/support/security-page
