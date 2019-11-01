@@ -17,6 +17,10 @@ RedirectMatch 302 \
 	https://docs.classicpress.net/faq-support/#will-my-current-plugins-and-themes-work-in-classicpress
 
 RedirectMatch 302 \
+	^/docs \
+	https://docs.classicpress.net
+
+RedirectMatch 302 \
 	^/security-page/?$ \
 	https://docs.classicpress.net/developing-classicpress/security-page/
 
