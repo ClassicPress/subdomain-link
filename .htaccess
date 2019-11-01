@@ -29,6 +29,10 @@ RedirectMatch 302 \
 	https://forums.classicpress.net/c/support/security-page
 
 RedirectMatch 302 \
+	^/announcements/release-notes \
+	https://forums.classicpress.net/c/announcements/release-notes
+
+RedirectMatch 302 \
 	^/updating-classicpress/?$ \
 	https://docs.classicpress.net/updating-classicpress/
 
