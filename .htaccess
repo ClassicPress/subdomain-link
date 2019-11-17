@@ -9,8 +9,16 @@ RedirectMatch 302 \
 	https://forums.classicpress.net/c/team-discussions/classicpress-security
 
 RedirectMatch 302 \
+	^/faq-support/
+	https://link.classicpress.net/faq-support/
+
+RedirectMatch 302 \
 	^/plugin-compatibility/?$ \
 	https://docs.classicpress.net/faq-support/#will-my-current-plugins-and-themes-work-in-classicpress
+
+RedirectMatch 302 \
+	^/docs \
+	https://docs.classicpress.net
 
 RedirectMatch 302 \
 	^/security-page/?$ \
@@ -21,5 +29,33 @@ RedirectMatch 302 \
 	https://docs.classicpress.net/developing-classicpress/security-page/#contacting-plugin-authors
 
 RedirectMatch 302 \
+	^/support/ \
+	https://forums.classicpress.net/c/support/
+
+RedirectMatch 302 \
 	^/support/security-page/?$ \
 	https://forums.classicpress.net/c/support/security-page
+
+RedirectMatch 302 \
+	^/announcements/release-notes \
+	https://forums.classicpress.net/c/announcements/release-notes
+
+RedirectMatch 302 \
+	^/classicpress-1-0-0-aurora-release-notes \
+	https://forums.classicpress.net/t/classicpress-1-0-0-aurora-release-notes/910
+
+RedirectMatch 302 \
+	^/updating-classicpress/?$ \
+	https://docs.classicpress.net/updating-classicpress/
+
+RedirectMatch 302 \
+	^/installing-classicpress/installation-step \
+	https://docs.classicpress.net/installing-classicpress/#installation-step
+
+RedirectMatch 302 \
+	^/testing-classicpress/reporting-bugs \
+	https://docs.classicpress.net/testing-classicpress/#reporting-bugs
+
+RedirectMatch 302 \
+	^/petitions \
+	https://petitions.classicpress.net/
