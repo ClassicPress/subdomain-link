@@ -23,3 +23,11 @@ RedirectMatch 302 \
 RedirectMatch 302 \
 	^/support/security-page/?$ \
 	https://forums.classicpress.net/c/support/security-page
+
+RedirectMatch 302 \
+	^/releases/?$ \
+	https://forums.classicpress.net/c/announcements/release-notes
+
+RedirectMatch 302 \
+	^/the-cms-for-creators/?$ \
+	https://www.classicpress.net
