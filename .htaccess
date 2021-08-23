@@ -6,7 +6,7 @@ RedirectMatch 302 \
 
 RedirectMatch 302 \
 	^/forum/security/?$ \
-	https://forums.classicpress.net/c/team-discussions/classicpress-security
+	https://forums.classicpress.net/c/projects/core-development/18
 
 RedirectMatch 302 \
 	^/plugin-compatibility/?$ \
