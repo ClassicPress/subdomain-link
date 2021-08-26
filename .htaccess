@@ -13,13 +13,16 @@ RedirectMatch 302 \
 	https://docs.classicpress.net/faq-support/#will-my-current-plugins-and-themes-work-in-classicpress
 
 RedirectMatch 302 \
+	^/docs/custom-login-image/?$ \
+	https://docs.classicpress.net/user-guides/custom-login-image/
+
+RedirectMatch 302 \
 	^/security-page/?$ \
 	https://docs.classicpress.net/developing-classicpress/security-page/
 
 RedirectMatch 302 \
 	^/security-page/contact-plugin-authors/?$ \
 	https://docs.classicpress.net/developing-classicpress/security-page/#contacting-plugin-authors
-
 RedirectMatch 302 \
 	^/support/security-page/?$ \
 	https://forums.classicpress.net/c/support/security-page
