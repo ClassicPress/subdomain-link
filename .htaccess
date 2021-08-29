@@ -6,7 +6,7 @@ RedirectMatch 302 \
 
 RedirectMatch 302 \
 	^/forum/security/?$ \
-https://forums.classicpress.net/c/projects/core-development/18
+	https://forums.classicpress.net/c/projects/core-development/18
 
 RedirectMatch 302 \
 	^/plugin-compatibility/?$ \
@@ -38,4 +38,4 @@ RedirectMatch 302 \
 
 RedirectMatch 302 \
 	^/core-privacy-policy/?$ \
-	https://www.classicpress.net/privacy-policy
+	https://www.classicpress.net/privacy-policy/#core-privacy-policy
