@@ -10,7 +10,7 @@ RedirectMatch 302 \
 
 RedirectMatch 302 \
 	^/plugin-compatibility/?$ \
-	https://docs.classicpress.net/faq-support/#will-my-current-plugins-and-themes-work-in-classicpress
+	https://docs.classicpress.net/user-guides/faq-and-support/#will-my-current-plugins-and-themes-work-in-classicpress
 
 RedirectMatch 302 \
 	^/docs/custom-login-image/?$ \
@@ -23,9 +23,10 @@ RedirectMatch 302 \
 RedirectMatch 302 \
 	^/security-page/contact-plugin-authors/?$ \
 	https://docs.classicpress.net/developing-classicpress/security-page/#contacting-plugin-authors
+  
 RedirectMatch 302 \
 	^/support/security-page/?$ \
-	https://forums.classicpress.net/c/support/security-page
+	https://forums.classicpress.net/c/general-discussion/security-news/45
 
 RedirectMatch 302 \
 	^/releases/?$ \
@@ -34,3 +35,7 @@ RedirectMatch 302 \
 RedirectMatch 302 \
 	^/the-cms-for-creators/?$ \
 	https://www.classicpress.net
+
+RedirectMatch 302 \
+	^/core-privacy-policy/?$ \
+	https://www.classicpress.net/privacy-policy/#core-privacy-policy
